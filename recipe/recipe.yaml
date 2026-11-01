@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: git-pkgs-proxy
-  version: "0.10.0"
+  version: "0.11.0"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/git-pkgs/proxy/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: b07335586199df429dac55c0bfc2d1a3d9489ada00c8c1583817ffa491722189
+  sha256: 9a66aacec64f02f850cf2f3106787045750f8556bdfac32442f44ff8ac781780
   target_directory: src
 
 build:
